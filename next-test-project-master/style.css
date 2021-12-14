@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 15% 5% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+.container {
+  grid-column: 3/9;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 40px;
+}
+h2 {
+  color: #000;
+  size: 30px;
+}
+.inputText {
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: #000 solid 1px;
+  border-radius: 25px;
+  padding: 0 10px;
+}
+.search_logo {
+  font-size: 35px;
+  color: black;
+  padding: 10px 0 0 8px;
+}
+
+.Search_Bar {
+  font-size: 15px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  background: none;
+  width: 400px;
+  height: 42px;
+}
+
+.choosen_product {
+  grid-column: 3/9;
+  grid-row: 2/7;
+  display: grid;
+  grid-template-columns: 6% 14% 4% 10% 10% 10% 10% 10% 10% 10% 6%;
+  grid-template-rows: 10% 10% 10% 10% 10% 7% 13% 10% 10% 10%;
+  background: #fff;
+  border: #a3b938 solid 10px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.product_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2/4;
+  grid-row: 2/6;
+  border: #000 solid 1px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.product_text {
+  line-height: 30px;
+  margin-left: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+  grid-column: 4/10;
+  grid-row: 2/6;
+}
+.product-details1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  grid-column: 2/4;
+  grid-row: 7;
+}
+.product-details1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  grid-column: 2/4;
+  grid-row: 7;
+}
+.product-details2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  grid-column: 4/6;
+  grid-row: 7;
+}
+.product-details3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  grid-column: 6/9;
+  grid-row: 7;
+}
+.product-details4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  grid-column: 9/11;
+  grid-row: 7;
+}
+.temp {
+  grid-column: 2/4;
+  grid-row: 8/11;
+  margin-left: 40px;
+}
+.speed {
+  grid-column: 4/6;
+  grid-row: 8/11;
+  margin-left: 80px;
+}
+.pressure {
+  grid-column: 6/9;
+  grid-row: 8/11;
+  margin-left: 80px;
+}
+.material {
+  grid-column: 9/11;
+  grid-row: 8/11;
+  margin-left: 60px;
+}
